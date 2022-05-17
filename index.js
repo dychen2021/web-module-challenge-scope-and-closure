@@ -30,11 +30,13 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  Counter 1 has a nested function in the return statement. Counter 2 is much more simpler and straight forward.
+  Counter1 has a nested function in the return statement. Counter2 is much more simpler and straight forward.
   2. Which of the two uses a closure? How can you tell?
-  
+  Counter1 is using closure because of the return function
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+  Counter1 is better if count is a temp variable and the same variable name is used again as a temp variable later. 
+  Counter2 is better if the value of count is needed later.
 */
 
 // counter1 code
